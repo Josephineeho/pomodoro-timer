@@ -61,8 +61,14 @@ h1 {
     transform: scale(0.95);
     background-color: rgba(255, 157, 174, 0.5);    
 }
+#textLabel {
+    font-size: 25px;
+    color: rgba(255, 157, 174, 3) ;
+    align-items: center;
+    margin-top: 80px;
+}
 
-#startBtn, #resetBtn{
+#startBtn, #resetBtn, #stopBtn{
     padding: 10px 20px;
     
     text-align: center;
@@ -73,10 +79,10 @@ h1 {
     transition: background-color 0.3s ease;
     
 }
-#startBtn:hover, #resetBtn:hover {
+#startBtn:hover, #resetBtn:hover, #stopBtn:hover {
     background-color: rgba(255, 157, 174, 0.3);
 }
-#startBtn:active, #resetBtn:active {
+#startBtn:active, #resetBtn:active, #stopBtn:active {
     transform: scale(0.95);
     background-color: rgba(255, 157, 174, 0.5);
 }
@@ -85,4 +91,10 @@ h1 {
     font-size: 24px;
     padding:  30px 8px;
     
+}
+.hide {
+    display: none;
+}
+.show {
+    visibility: visible;
 }
