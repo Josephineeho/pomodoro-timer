@@ -57,7 +57,7 @@ startBtn.onclick = function() {
                 hours++;
             }
             textLabel.textContent=pad(hours) + ":" + pad(minutes) + ":" + pad(seconds);
-        },200);
+        },1000);
     }
 };
 stopBtn.onclick = function() {
